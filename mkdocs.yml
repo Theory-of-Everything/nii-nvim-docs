@@ -1,0 +1,42 @@
+site_name: nii-nvim wiki
+repo_url: https://sr.ht/~theorytoe/nii-nvim
+repo_name: ~theorytoe/nii-nvim
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - User Guide:
+    - Mappings: mappings.md
+    - Basic configuration: basic-configuration.md
+    - Philosophy: philosophy.md
+  - Recepies: 'recpies/recpies.md'
+  # - Advanced Configuration:
+    # - Language Server: 'configuration/lsp.md'
+  - Migration:
+    # - Migrating from alpha: migration-tag.md
+    - Migrating from master branch: migration-branch.md
+  - Contributing: 'contributing.md'
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins:
+  - git-revision-date
+
+theme:
+  name: material
+  font:
+    text: Work Sans
+  palette:
+    scheme: slate
+    primary: light green
+    accent: cyan
+  favicon: favicon.png
