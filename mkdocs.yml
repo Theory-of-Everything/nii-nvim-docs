@@ -3,17 +3,16 @@ repo_url: https://sr.ht/~theorytoe/nii-nvim
 repo_name: ~theorytoe/nii-nvim
 nav:
   - Home: index.md
-  - Installation: installation.md
+  - Installation: 
+    - Stable: installation-stable.md
+    - Nightly: installation-nightly.md
   - User Guide:
     - Mappings: mappings.md
     - Basic configuration: basic-configuration.md
+    - Recipes: 'recipes/recipes.md'
     - Philosophy: philosophy.md
-  - Recepies: 'recpies/recpies.md'
-  # - Advanced Configuration:
-    # - Language Server: 'configuration/lsp.md'
   - Migration:
-    # - Migrating from alpha: migration-tag.md
-    - Migrating from master branch: migration-branch.md
+      - Migrating from master branch: migration-branch.md
   - Contributing: 'contributing.md'
 
 markdown_extensions:
@@ -40,3 +39,17 @@ theme:
     primary: light green
     accent: cyan
   favicon: favicon.png
+
+extra:
+  generator: false
+  social:
+    - icon: material/email
+      link: ~theorytoe/nii-nvim-discuss@lists.sr.ht
+    - icon: material/book-edit
+      link: https://docs.theoryware.net/nii-nvim/contributing/
+    - icon: material/github
+      link: https://github.com/Theory-of-Everything/nii-nvim
+    - icon: material/discord
+      link: https://discord.gg/H6WY7cUkfw
+    - icon: material/message-text
+      link: https://matrix.to/#/#nii-nvim:halogen.city

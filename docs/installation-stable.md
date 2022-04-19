@@ -1,6 +1,6 @@
 ## Installation Prequisites:
 
--   Neovim Stable v5.0 or later / Neovim Nightly
+-   Neovim 
 -   FZF
 -   ripgrep
 -   Python 3
@@ -9,7 +9,7 @@
 
 ## Migration of older nii-nvim versions
 
-If you are currently traching chages from the `master` branch,
+If you are currently tracking changes from the `master` branch,
 please check out the [Migration guide](https://docs.theoryware.net/nii-nvim/migration-branch/).
 
 ## Manual Install
@@ -27,7 +27,7 @@ replace the nested `nvim/` dir
 ```bash
 cd ~/.config/
 mv ./nvim ./nvim.old
-git clone https://sr.ht/~theorytoe/nii-nvim ./nvim
+git clone https://git.sr.ht/~theorytoe/nii-nvim ./nvim
 cd ./nvim
 git checkout main
 nvim +PackerInstall
